@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-list-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getListItems/GetListItemsWebPart.js",
+          "manifest": "./src/webparts/getListItems/GetListItemsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetListItemsWebPartStrings": "lib/webparts/getListItems/loc/{locale}.js"
+  }
+}
